@@ -1,0 +1,51 @@
+{
+  // Theme Settings
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Fonts
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  // Window Settings
+  "window.zoomLevel": 0,
+  "window.menuBarVisibility": "toggle",
+  "window.restoreWindows": "none",
+  "window.title": "${dirty}${appName}${separator}${rootName}${separator}${activeEditorShort}",
+
+  // Editor Settings
+  "editor.fontSize": 15,
+  "editor.tabSize": 4,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+
+  // FOrmatter Settings
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // ESLint Settings
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Git Settings
+  "git.autofetch": true,
+  "git.autofetchPeriod": 5000,
+  "git.enableCommitSigning": false,
+  "git.alwaysSignOff": true,
+  "git.branchSortOrder": "alphabetically",
+  "git.openAfterClone": "prompt",
+
+  // GitLense Settings
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.currentLine.enabled": false,
+  "editor.inlineSuggest.enabled": true
+}

@@ -1,0 +1,8 @@
+[user]
+	name = BitsOfAByte
+	email = 19539165+BitsOfAByte@users.noreply.github.com
+[core]
+	editor = codium --wait
+    	excludesfile = "~/.dotfiles/configs/git/.globGitIgnore"
+[init]
+	defaultBranch = main

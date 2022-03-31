@@ -1,0 +1,209 @@
+{
+  "policies": {
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableTelemetry": true,
+    "DisablePocket": true,
+    "DisablePasswordReveal": true,
+    "OfferToSaveLogins": false,
+    "PasswordManagerEnabled": false,
+    "CaptivePortal": false,
+    "DisableFirefoxScreenshots": true,
+    "DontCheckDefaultBrowser": true,
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Locked": true,
+      "Cryptomining": true,
+      "Fingerprinting": true
+    },
+    "PopupBlocking": {
+      "Default": true,
+      "Locked": true
+    },
+    "Cookies": {
+      "Behavior": "reject-tracker-and-partition-foreign",
+      "BehaviorPrivateBrowsing": "reject-tracker-and-partition-foreign",
+      "Locked": true
+    },
+    "SearchEngines": {
+      "Default": "DuckDuckGo"
+    },
+    "DNSOverHTTPS": {
+      "Enabled": true
+    },
+    "FirefoxHome": {
+      "Search": true,
+      "TopSites": true,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Snippets": false,
+      "Locked": true
+    },
+    "Preferences": {
+      "pdfjs.enableScripting": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "geo.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.aboutConfig.showWarning": {
+        "Value": false,
+        "Status": "user"
+      },
+      "browser.urlbar.trimURLs": {
+        "Value": false,
+        "Status": "default"
+      },
+      "dom.disable_window_move_resize": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "dom.security.https_only_mode": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "dom.security.https_only_mode_ever_enabled": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "dom.battery.enabled": {
+        "Value": false,
+        "Status": "default"
+      },
+      "privacy.donottrackheader.enabled": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "privacy.firstparty.isolate": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "privacy.resistFingerprinting": {
+        "Value": true,
+        "Status": "default"
+      },
+      "network.dns.echconfig.enabled": {
+        "Value": true,
+        "Status": "default"
+      },
+      "network.dns.http3_echconfig.enabled": {
+        "Value": true,
+        "Status": "default"
+      },
+      "network.dns.use_https_rr_as_altsvc": {
+        "Value": true,
+        "Status": "default"
+      }
+    },
+    "ManagedBookmarks": [
+      {
+        "toplevel_name": "Synced"
+      },
+      {
+        "name": "Manage Dotfiles",
+        "url": "https://github.com/BitsOfAByte/.dotfiles"
+      },
+      {
+        "name": "Add to Cube Cloud",
+        "url": "javascript:(function(){var a=window,b=document,c=encodeURIComponent,e=c(document.title),d=a.open('https://nc.bitsofabyte.dev/apps/bookmarks/bookmarklet?url='+c(b.location)+'&title='+e,'bkmk_popup','left='+((a.screenX||a.screenLeft)+10)+',top='+((a.screenY||a.screenTop)+10)+',height=650px,width=550px,resizable=1,alwaysRaised=1');a.setTimeout(function(){d.focus()},300);})();"
+      },
+      {
+        "name": "Cube Cloud Bookmarks",
+        "url": "https://nc.bitsofabyte.dev/apps/bookmarks/"
+      },
+      {
+        "name": "Cube Cloud",
+        "children": [
+          {
+            "name": "Dashboard",
+            "url": "https://nc.bitsofabyte.dev/"
+          },
+          {
+            "name": "Rainloop",
+            "url": "https://nc.bitsofabyte.dev/apps/rainloop/"
+          },
+          {
+            "name": "Files",
+            "url": "https://nc.bitsofabyte.dev/apps/files/"
+          },
+          {
+            "name": "News",
+            "url": "https://nc.bitsofabyte.dev/apps/news/"
+          },
+          {
+            "name": "Notes",
+            "url": "https://nc.bitsofabyte.dev/apps/notes/"
+          }
+        ]
+      },
+      {
+        "name": "Productivity",
+        "children": [
+          {
+            "name": "ProtonMail",
+            "url": "https://mail.protonmail.com/"
+          },
+          {
+            "name": "ProtonCalendar",
+            "url": "https://calendar.protonmail.com/"
+          },
+          {
+            "name": "ProtonDrive",
+            "url": "https://drive.protonmail.com/"
+          },
+          {
+            "name": "GMail",
+            "url": "https://mail.google.com"
+          }
+        ]
+      },
+      {
+        "name": "Development",
+        "children": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/"
+          },
+          {
+            "name": "DigitalOcean",
+            "url": "https://cloud.digitalocean.com/"
+          }
+        ]
+      }
+    ],
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock-origin/latest.xpi"
+      },
+      "{74145f27-f039-47ce-a470-a662b129930a}": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/clearurls/latest.xpi"
+      },
+      "@contain-facebook": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/facebook-container/latest.xpi"
+      },
+      "sponsorBlocker@ajay.app": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sponsorblock/latest.xpi"
+      },
+      "{762f9885-5a13-4abd-9c77-433dcd38b8fd}": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/return-youtube-dislikes/latest.xpi"
+      },
+      "{a6c4a591-f1b2-4f03-b3ff-767e5bedf4e7}": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/user-agent-string-switcher/latest.xpi"
+      },
+      "addon@darkreader.org": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi"
+      }
+    }
+  }
+}
