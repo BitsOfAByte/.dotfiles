@@ -5,6 +5,7 @@ if [ "$(id -u)" = "0" ]; then
   exit 1
 fi
 
+cd $DOTFILES_DIR
 source variables.sh
 
 echo "
