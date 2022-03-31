@@ -6,4 +6,4 @@ alias neofetch="neofetch --source $DOTFILES_DIR/configs/neofetch/logo.txt --asci
 
 # Dotfile aliases
 alias dotdir="cd $DOTFILES_DIR"
-alias dotsync="$DOTFILES_DIR/bootstrap.sh -f"
+alias dotsync="bash $DOTFILES_DIR/bootstrap.sh -f"
