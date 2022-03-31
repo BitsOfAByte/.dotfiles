@@ -4,7 +4,7 @@ This repository stores my personal setup for **Ubuntu** based distributions.
 
 ## Word of Warning
 
-> By running these scripts, you are certain that you are okay with any changes they may make to your system, I am not responsible for any issues/damage they may cause. **Always** check what scripts you run, especially if you find them on the internet.
+> By running these scripts, you are certain that you are okay with any changes they may make to your system, I am not responsible for any issues/damage they may cause. **Always** check what scripts you run, especially if you find them on the internet. You will have to make a lot of modifications to individual files in order to make them more personal to you.
 
 ### Oneliner
 
