@@ -14,4 +14,5 @@ install git
 install curl
 install wget
 install zsh
-install find 
+install find
+install cron
