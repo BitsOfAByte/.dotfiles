@@ -16,7 +16,6 @@ cd ~ && git clone https://github.com/bitsofabyte/.dotfiles.git && chmod -R +x .d
 
 1. Clone the repository locally in your home folder and navigate to it
 2. Run `chmod -R +x .` to make scripts executable
-3. Go into the directory
 4. Run `bash bootstrap.sh` (optional: --force or -f)
 
 ## Variables
