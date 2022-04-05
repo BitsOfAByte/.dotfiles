@@ -8,16 +8,18 @@ vscode-icons-team.vscode-icons
 enkia.tokyo-night
 
 # Tools
-Dart-Code.flutter
-dbaeumer.vscode-eslint
 GitHub.vscode-pull-request-github
 eamodio.gitlens
-Vtrois.gitmoji-vscode
 yzhang.markdown-all-in-one
-esbenp.prettier-vscode
 wayou.vscode-todo-highlight
 vivaxy.vscode-conventional-commits
-negokaz.live-server-preview
+
+# Frameworks
+Dart-Code.flutter
+
+# Linting
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
 
 # Languages
 ms-python.
