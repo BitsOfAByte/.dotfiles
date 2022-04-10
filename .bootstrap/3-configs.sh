@@ -87,4 +87,6 @@ linkDotfile .p10k.zsh $HOME/.p10k.zsh
 # VSCodium & VSCode
 linkDotfile vscode/settings.json $HOME/.config/VSCodium/User/settings.json
 linkDotfile vscode/settings.json $HOME/.config/Code/User/settings.json
+
+echo $PWD
 bash ../configs/vscode/extensions.sh
