@@ -7,3 +7,4 @@ function install {
 }
 
 install yarn
+install typescript
