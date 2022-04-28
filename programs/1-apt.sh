@@ -16,3 +16,4 @@ function install {
 # These will be processed after sources from /sources are installed
 install firefox 
 install codium 
+install git
