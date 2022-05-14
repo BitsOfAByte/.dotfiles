@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GOVERSION="1.18.1"
+GOVERSION="1.18.2"
 
 # Check if the installed version is equal to the variable
 if ! go version | grep -q "go version go$GOVERSION"; then
