@@ -17,4 +17,4 @@ export PATH=$PATH:$FLUTTERPATH/bin
 export CHROME_EXECUTABLE=/var/lib/flatpak/exports/bin/com.github.Eloston.UngoogledChromium
 
 # Editor 
-export EDITOR='codium'
+export EDITOR='codium --wait'
