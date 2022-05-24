@@ -47,7 +47,7 @@
   // GitLense Settings
   "gitlens.showWelcomeOnInstall": false,
   "gitlens.currentLine.enabled": false,
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
   
   // RPC Settings
   "discord.detailsIdling": "Idle",
