@@ -1,6 +1,6 @@
 {
   // Theme Settings
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "workbench.iconTheme": "vscode-icons",
 
   // Fonts
@@ -48,4 +48,13 @@
   "gitlens.showWelcomeOnInstall": false,
   "gitlens.currentLine.enabled": false,
   "editor.inlineSuggest.enabled": true
+  
+  // RPC Settings
+  "discord.detailsIdling": "Idle",
+  "discord.idleTimeout": 120,
+  "discord.largeImage": "{LANG}",
+  "discord.largeImageIdling": "Nothing Open",
+  "discord.removeLowerDetails": true,
+  "discord.removeRemoteRepository": true,
+  "discord.removeTimestamp": true
 }
