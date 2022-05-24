@@ -9,10 +9,13 @@ enkia.tokyo-night
 
 # Tools
 GitHub.vscode-pull-request-github
-eamodio.gitlens
 yzhang.markdown-all-in-one
 wayou.vscode-todo-highlight
 vivaxy.vscode-conventional-commits
+cschleiden.vscode-github-actions
+
+# Misc
+icrawl.discord-vscode
 
 # Frameworks
 Dart-Code.flutter
@@ -23,8 +26,10 @@ esbenp.prettier-vscode
 
 # Languages
 ms-python.
+ms-python.vscode-pylance
 Dart-Code.dart-code
 golang.go
+rust-lang.rust
 )
 
 for i in ${extensions[@]}; do
