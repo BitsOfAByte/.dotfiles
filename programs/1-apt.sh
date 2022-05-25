@@ -17,4 +17,3 @@ function install {
 install firefox 
 install codium 
 install git
-install proto
