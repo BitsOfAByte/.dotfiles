@@ -16,3 +16,4 @@ install wget
 install zsh
 install find
 install cron
+install cronie
