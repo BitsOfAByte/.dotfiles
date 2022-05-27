@@ -8,6 +8,4 @@ done
 
 # Cleanup
 echo "  [Programs] Performing cleanup"
-sudo apt upgrade -y > /dev/null 2>&1
-sudo apt autoclean -y > /dev/null 2>&1
-sudo apt autoremove -y > /dev/null 2>&1
+sudo dnf update -y > /dev/null 2>&1

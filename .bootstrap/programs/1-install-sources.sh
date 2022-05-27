@@ -7,4 +7,4 @@ done
 
 # Fetch new package lists after adding sources
 echo "    [Programs/PPAs] Updating sources"
-sudo apt update -y > /dev/null 2>&1
+sudo dnf reposync -y > /dev/null 2>&1

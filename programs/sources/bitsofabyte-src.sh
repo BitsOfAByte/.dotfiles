@@ -1,3 +1,7 @@
 #!/bin/bash
 
-echo "deb [trusted=yes] https://packages.bitsofabyte.dev/apt/ /" | sudo tee -a /etc/apt/sources.list.d/bitsofabyte.list
+echo "[BitsOfAByte]            
+name=BitsOfAByte Packages         
+baseurl=https://packages.bitsofabyte.dev/yum/
+enabled=1
+gpgcheck=0" | sudo tee -a /etc/yum.repos.d/bitsofabyte.repo

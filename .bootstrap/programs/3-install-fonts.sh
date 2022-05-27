@@ -17,4 +17,4 @@ downloadFont https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%
 
 
 echo "      [Programs/Fonts] Installing: Firacode"
-sudo apt install fonts-firacode > /dev/null 2>&1
+sudo dnf install fonts-firacode > /dev/null 2>&1

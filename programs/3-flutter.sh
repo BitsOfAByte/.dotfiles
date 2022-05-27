@@ -8,7 +8,7 @@ if [ -d $FLUTTER_DIR/bin ]; then
 else
     # Install flutter pre-reqs
     echo "    [Programs/Apps] Pre-install: flutter"
-    sudo apt install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev > /dev/null 2>&1
+    sudo dnf install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev > /dev/null 2>&1
     
     # Install flutter
     echo "    [Programs/Apps] Installing: flutter $FLUTTERVERSION (This may take a while)"
