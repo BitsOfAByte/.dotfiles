@@ -42,7 +42,7 @@ for i in ${extensions[@]}; do
 
  # Sync Extensions for VSCode if installed  (usr/bin/code)
  if [ -f /usr/bin/code ]; then
-  flatpak run com.visualstudio.code --install-extension $i > /dev/null 2>&1
+  code --install-extension $i > /dev/null 2>&1
  fi
 
 done
